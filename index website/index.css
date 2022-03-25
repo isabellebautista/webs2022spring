@@ -30,3 +30,16 @@ h1 {
   background-color: #;
   color: black;
 }
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; <!-- Arranges along the vertical axis, b/c column   -->
+    align-items: center;            <!-- Arranges along the horizontal axis, b/c column -->
+}
