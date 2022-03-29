@@ -1,5 +1,5 @@
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 /* Add a black background color to the top navigation */
@@ -34,7 +34,13 @@ h1 {
 .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin: : 40px;
+    padding-left: 40PX;
+}
 
+.Button {
+  align-items: center;
 }
 
 .card {
@@ -42,4 +48,10 @@ h1 {
     flex-direction: column;
     justify-content: space-between; <!-- Arranges along the vertical axis, b/c column   -->
     align-items: center;            <!-- Arranges along the horizontal axis, b/c column -->
+}
+
+@media only screen and (max-width: 399px) {
+    .card {
+        flex-direction: row;
+    }
 }
