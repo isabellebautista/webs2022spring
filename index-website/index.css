@@ -1,17 +1,28 @@
 
+
+@font-face {
+  font-family: 'Stalemate',cursive;
+  src: url();
+}
+
 h1, h2 {
   text-align: center;
 }
+body {
+  background-color: #FFFFFF
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #E6E6FA;
+  background-color: #CB4C4E;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,7 +39,7 @@ h1, h2 {
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #;
-  color: black;
+  color: white;
 }
 
 .card-container {
