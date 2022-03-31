@@ -48,6 +48,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
+    padding: 40px;
+    margin-left: 50px;
 }
 
 .Button {
@@ -79,4 +81,39 @@ body {
   65% {transform: scale(0.95, 1.05);}
   75% {transform: scale(1.05, 0.95);}
   100% {transform: scale(1,1);}
+}
+
+
+
+.button1 {
+  background-color: white;
+  align-items: center;
+}
+.button2 {
+  background-color: white;
+  align-items: center;
+}
+.button3 {
+  background-color: white;
+  align-items: center;
+}
+.button4 {
+  background-color: white;
+  align-items: center;
+}
+.button5 {
+  background-color: white;
+  align-items: center;
+}
+.button6 {
+  background-color: white;
+  align-items: center;
+}
+.button7 {
+  background-color: white;
+  align-items: center;
+}
+.button8 {
+  background-color: white;
+  align-items: center;
 }
