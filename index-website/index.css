@@ -2,14 +2,15 @@
 
 @font-face {
   font-family: 'Stalemate',cursive;
-  src: url();
+  src: url(https://fonts.googleapis.com/css2?family=Stalemate&display=swap);
 }
 
 h1, h2 {
   text-align: center;
 }
 body {
-  background-color: #FFFFFF
+  background-color: #fffee4
+
 }
 
 
@@ -46,8 +47,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
-    margin: : 40px;
-    padding-left: 40PX;
+    justify-content: center;
 }
 
 .Button {
@@ -65,4 +65,18 @@ body {
     .card {
         flex-direction: row;
     }
+}
+
+#instalogo:hover {
+  animation: bounce 1s ease;
+}
+
+@keyframes bounce {
+  0% {transform: scale(1,1);}
+  30% {transform: scale(1.25, 0.75);}
+  40% {transform: scale(0.75, 1.25);}
+  50% {transform: scale(1.15, 0.85);}
+  65% {transform: scale(0.95, 1.05);}
+  75% {transform: scale(1.05, 0.95);}
+  100% {transform: scale(1,1);}
 }
