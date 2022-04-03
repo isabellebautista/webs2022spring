@@ -1,23 +1,33 @@
 
-
 @font-face {
-  font-family: 'Stalemate',cursive;
-  src: url(https://fonts.googleapis.com/css2?family=Stalemate&display=swap);
+  font-family: 'UpperEastSide';
+  src: url('UpperEastSide-webfont.woff') format('woff');
 }
 
 h1, h2 {
   text-align: center;
+  font-family: 'UpperEastSide', sans-serif;
+  font-size: 30px
+  line-height: 1.8em
+  color: #000000
 }
 body {
-  background-color: #fffee4
-
+  background-color: #FFFFFF;
+  font-family: 'UpperEastSide', sans-serif;
+  font-size: 24px
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #CB4C4E;
   overflow: hidden;
+  font-size: 22px
 }
 
 /* Style the links inside the navigation bar */
@@ -29,6 +39,7 @@ body {
   text-decoration: none;
   display: block;
   font-size: 17px;
+  font-size: 22px
 }
 
 /* Change the color of links on hover */
